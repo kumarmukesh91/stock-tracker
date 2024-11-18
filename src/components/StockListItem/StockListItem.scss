@@ -1,0 +1,37 @@
+.stock-list-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid var(--color-foreground1);
+  text-align: left;
+  padding: 0.2rem;
+  align-items: center;
+
+  @media (min-width: 640px) {
+    padding: 0.5rem;
+  }
+
+  .bid {
+    color: var(--color-primary-green2);
+    text-align: right;
+  }
+  .ask {
+    color: var(--color-primary-red2);
+  }
+  .price {
+    color: var(--color-primary-blue2);
+  }
+  .isin {
+    color: var(--color-primary-orange2);
+  }
+
+  .unsubscribe {
+    text-align: right;
+    button {
+      color: var(--color-primary-red1);
+      background-color: transparent;
+      outline: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

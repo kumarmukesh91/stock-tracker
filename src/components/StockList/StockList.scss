@@ -1,0 +1,42 @@
+.stock-list {
+  max-width: 768px;
+  margin: 0 auto;
+
+  .stock-list-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 0.2rem;
+    border-bottom: 2px solid var(--color-foreground1);
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: left;
+    align-items: end;
+
+    @media (min-width: 640px) {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+    }
+  }
+
+  .stock-attribute {
+    padding: 0 0.2rem;
+    &.Bid {
+      text-align: right;
+    }
+
+    @media (min-width: 640px) {
+      padding: 0 1rem;
+    }
+  }
+}
+
+.server-error {
+  text-align: center;
+  margin: 1rem;
+}
+
+.no-subscription {
+  color: var(--color-background4);
+  text-align: center;
+  margin: 1rem;
+}

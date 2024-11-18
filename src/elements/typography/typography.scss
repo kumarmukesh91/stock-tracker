@@ -1,0 +1,149 @@
+/* Base styles */
+.typography {
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.subtitle1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.subtitle2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.body1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.body2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.caption {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.overline {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+/* Status Variants */
+.default {
+  color: inherit;
+}
+
+.error {
+  color: var(--color-primary-red2);
+}
+
+.success {
+  color: var(--color-primary-green2);
+}
+// media query for tablet
+@media (min-width: 600px) {
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
+  .h3 {
+    font-size: 1.75rem;
+  }
+  .h4 {
+    font-size: 1.5rem;
+  }
+  .h5 {
+    font-size: 1.25rem;
+  }
+  .h6 {
+    font-size: 1.125rem;
+  }
+  .body1 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .h1 {
+    font-size: 3rem;
+  }
+  .h2 {
+    font-size: 2.5rem;
+  }
+  .h3 {
+    font-size: 2rem;
+  }
+  .h4 {
+    font-size: 1.75rem;
+  }
+  .h5 {
+    font-size: 1.5rem;
+  }
+  .h6 {
+    font-size: 1.25rem;
+  }
+  .body2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .h1 {
+    font-size: 3.5rem;
+  }
+  .h2 {
+    font-size: 3rem;
+  }
+  .h3 {
+    font-size: 2.5rem;
+  }
+  .h4 {
+    font-size: 2rem;
+  }
+  .h5 {
+    font-size: 1.75rem;
+  }
+  .h6 {
+    font-size: 1.5rem;
+  }
+}
